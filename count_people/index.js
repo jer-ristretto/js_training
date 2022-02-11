@@ -3,7 +3,7 @@ let messageToUserEl = document.getElementById("messageToUser");
 let countEl = document.getElementById("count-el");
 
 function increment() {
-    count += 1;
+    count++;
     countEl.innerText = count;
 }
 
